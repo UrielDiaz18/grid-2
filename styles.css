@@ -1,0 +1,105 @@
+.conteiner{
+    display: grid;
+    justify-items: flex-end;
+    font-family: Arial, sans-serif;
+    margin: auto;
+    border: 1px solid black;
+}
+.menu{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 3px;
+    background-color: rgb(2, 2, 42);
+    color: white;
+    padding: 3px;
+    justify-items: space-between;
+    width: 1250px;
+}
+
+.inicio{
+    display: grid;
+    grid-template-rows: repeat(2, 3fr);
+    gap: 3px;
+    background-color: rgb(198, 198, 211);
+    color:rgb(2, 2, 42);
+    padding: 3px;
+    justify-items: center;
+    width: 1250px;
+}
+button{
+    background-color: rgb(2, 2, 42);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.imagen{
+    display: grid;
+    gap: 3px;
+    background-color: rgb(198, 198, 211);
+    color:rgb(2, 2, 42);
+    padding: 3px;
+    justify-items: flex-end;
+    align-items: center;
+    width: 70%;
+    height: 40%;
+}
+.container4{
+    display: grid;
+    gap: 5px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.productos-destacados{
+    display: grid;
+    color:rgb(2, 2, 42);
+    padding: 3px;
+}
+
+.container5{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 5px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    button{
+        background-color: rgb(33, 2, 61);
+        color: white;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+        cursor: pointer;
+    }
+}
+
+.producto1{
+    display: grid;
+    background-color: rgb(117, 117, 131);
+    height: 200px;
+    color:rgb(2, 2, 42);
+    justify-items: center;
+    border: 1px solid black;
+    p{
+        font-size: 18px;
+        color: rgb(32, 2, 49);
+    }
+    h3{
+        font-size: 15px;
+        color: rgb(8, 1, 25);
+        font-weight: bold;
+    }
+}
+
+.container6{
+    display: grid;
+    align-items: flex-end;
+    justify-items: flex-start;
+    font-family: Arial, sans-serif;
+    background-color: rgb(2, 2, 26);
+    color:rgb(237, 237, 240);
+    height: 50px;
+}
